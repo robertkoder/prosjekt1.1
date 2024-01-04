@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('path/to/fonts/Rubik-Regular.ttf') format('truetype');
 /* Reset some default styling and add a basic style to the body */
+}
 body {
+
+    font-family: 'Rubik';
     background: linear-gradient(to right, #808080, #dddddd, #ffffff);
     margin: 0;
     padding: 0;
@@ -38,17 +44,19 @@ body {
 }
 .img {
     /* old specs */
-    max-width: 100%;
-    height: auto;
-    /* width: 1350px;
-    height: 600px; */
+    /* max-width: 100%;
+    height: auto; */
+    width: 100%;
+    height: 600px;
     display: block;
     margin: 0 auto;
 }
     
 .logo {
     margin-left: 30px;
-    
+    display: flex;
+    flex-direction: row;
+    color: white;
 }
 
 /* Style the navigation menu */
@@ -61,7 +69,7 @@ li {
     margin-right: 20px;
 }
 
-li:hover {
+.li_hover:hover {
     background-color: #ad5b5b;
 }
 
@@ -124,11 +132,19 @@ button {
     border-style: none;
 }
 
+h1{
+    background-color: black;
+}
+.heroh3{
+    background-color: black;
+}
 .heroText{
+    font-size: 20px;
+    font-weight: 800;
     text-align: center;
     position: absolute;
-    color: white;
-    top: 35%;
-    left: 40%;
-     text-shadow: 0 0 4px #d70f0f;
+    color: #ffffff;
+    top: 40%;
+    left: 33%;
+     text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
