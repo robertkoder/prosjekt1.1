@@ -84,10 +84,14 @@
     margin-block-end: 0px;
 }
 
+.product-item-small, .product-item-large {
+    transition: transform 0.2s ease;
+}
+
 .product-item-small:hover {
-    scale: 1.2;
+    transform: scale(1.2);
 }
 
 .product-item-large:hover {
-    scale: 1.12;
+    transform: scale(1.12);
 }
