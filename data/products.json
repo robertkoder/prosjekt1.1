@@ -133,15 +133,15 @@
         "price": 20,
         "type": "game",
         "description": "Racing cart game in the mario universe.",
-        "image": "data/images/MarioKart.avif"
+        "image": "data/images/MarioKart.png"
     },
     {
         "id": "ZeldaGame",
-        "title": "Zelda",
+        "title": "Zelda Breath of the Wild",
         "price": 20,
         "type": "game",
         "description": "Embark on a heroic quest through the enchanting realm of Hyrule, battling foes, solving puzzles, and wielding legendary artifacts in this epic Zelda adventure.",
-        "image": "data/images/Zelda.webp"
+        "image": "data/images/Zelda.png"
     },
     {
         "id": "SuperSmashBros",
@@ -149,7 +149,7 @@
         "price": 20,
         "type": "game",
         "description": "Super Smash Bros.: A fast-paced, crossover brawl featuring beloved gaming characters in dynamic multiplayer arenas.",
-        "image": "data/images/superSmash.jpg"
+        "image": "data/images/supersmashbros.png"
     },
     {
         "id": "SuperMarioBrosWonder",
@@ -157,7 +157,7 @@
         "price": 20,
         "type": "game",
         "description": "Join Mario and Luigi on a lively adventure to rescue Princess Peach from Bowser's grasp in a vibrant and imaginative world.",
-        "image": "data/images/supperMarioWonder.avif"
+        "image": "data/images/supermarioWonder.png"
     },
     {
         "id": "StreetFighter6",
