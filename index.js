@@ -47,7 +47,7 @@ function populateProductList(products) {
                     <h3 class="product-title clean-default">${product.title}</h3>
                     <p class="product-description">${product.description}</p>
                 </div>
-                <p class="product-price">$${product.price}</p>
+                <p class="product-price clean-default">$${product.price}</p>
             </div>
         `;
         productList.appendChild(li);
