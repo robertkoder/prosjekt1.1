@@ -4,127 +4,127 @@
         "title": "Playstation 5",
         "price": 499,
         "type": "console",
-        "description": "tempDescription",
+        "description": "The latest in Sony's gaming technology, offering advanced graphics and high-speed performance.",
         "image": "data/images/ps5.jpg"
     },
     {
         "id": "commodore64",
         "title": "Commodore 64",
-        "price": 499,
+        "price": 80,
         "type": "console",
-        "description": "tempDescription",
+        "description": "A classic home computer from the 1980s, known for its vast game library and programming capabilities.",
         "image": "data/images/commodore64.webp"
     },
     {
         "id": "xbox360",
         "title": "Xbox 360",
-        "price": 499,
+        "price": 150,
         "type": "console",
-        "description": "tempDescription",
+        "description": "A popular gaming console from Microsoft, well-known for its extensive game catalog and online gaming community.",
         "image": "data/images/xbox360.jpeg"
     },
     {
         "id": "segaGenesis",
         "title": "Sega Genesis",
-        "price": 499,
+        "price": 70,
         "type": "console",
-        "description": "tempDescription",
+        "description": "A landmark 16-bit console that brought arcade-quality gaming to the home.",
         "image": "data/images/segaGenesis.jpg"
     },
     {
         "id": "psp",
         "title": "Playstation Portable",
-        "price": 499,
+        "price": 120,
         "type": "console",
-        "description": "tempDescription",
+        "description": "Sony's first venture into handheld gaming, combining powerful hardware with a sleek design.",
         "image": "data/images/psp.jpg"
     },
     {
         "id": "psx",
         "title": "Playstation X",
-        "price": 499,
+        "price": 100,
         "type": "console",
-        "description": "tempDescription",
+        "description": "An iconic console that revolutionized 3D gaming and brought many classic franchises to life.",
         "image": "data/images/psx.jpg"
     },
     {
         "id": "atari2600",
         "title": "Atari 2600",
-        "price": 499,
+        "price": 60,
         "type": "console",
-        "description": "tempDescription",
+        "description": "One of the earliest and most influential gaming consoles, known for pioneering home gaming.",
         "image": "data/images/atari.png"
     },
     {
         "id": "nes",
         "title": "NES",
-        "price": 499,
+        "price": 100,
         "type": "console",
-        "description": "tempDescription",
+        "description": "Nintendo's groundbreaking system that redefined home gaming in the 1980s.",
         "image": "data/images/nes.jpg"
     },
     {
         "id": "n64",
         "title": "Nintendo 64",
-        "price": 499,
+        "price": 120,
         "type": "console",
-        "description": "tempDescription",
+        "description": "A revolutionary console known for its 3D graphics and iconic games like Mario and Zelda.",
         "image": "data/images/nintendo64.jpg"
     },
     {
         "id": "nds",
         "title": "Nintendo DS",
-        "price": 499,
+        "price": 80,
         "type": "console",
-        "description": "tempDescription",
+        "description": "A dual-screen handheld gaming console, famous for its innovative design and touchscreen capabilities.",
         "image": "data/images/nintendods.jpg"
     },
     {
         "id": "wii",
         "title": "Wii",
-        "price": 499,
+        "price": 100,
         "type": "console",
-        "description": "tempDescription",
+        "description": "Nintendo's innovative console that introduced motion controls to a wide audience.",
         "image": "data/images/wii.jpg"
     },
     {
         "id": "steamdeck",
         "title": "Steam Deck",
-        "price": 499,
+        "price": 399,
         "type": "console",
-        "description": "tempDescription",
+        "description": "A powerful handheld gaming PC that brings your entire Steam library on the go.",
         "image": "data/images/steamdeck.webp"
     },
     {
         "id": "deltacoHeadset",
         "title": "Deltaco Headset",
-        "price": 499,
+        "price": 40,
         "type": "accessory",
-        "description": "tempDescription",
+        "description": "A comfortable and affordable headset option for gamers looking for quality sound.",
         "image": "data/images/deltacoHeadset.png"
     },
     {
         "id": "logitechHeadset",
         "title": "Logitech Headset",
-        "price": 499,
+        "price": 60,
         "type": "accessory",
-        "description": "tempDescription",
+        "description": "A high-quality headset from Logitech, offering exceptional audio clarity and comfort.",
         "image":"data/images/logitechHeadset.jpg"
     },
     {
         "id": "onikuma",
         "title": "Onikuma Headset",
-        "price": 500,
+        "price": 50,
         "type": "accessory",
-        "description": "cute",
+        "description": "A stylish and functional headset designed for extended gaming sessions.",
         "image": "data/images/onikumaHeadset.webp"
     },
     {
         "id": "switchProController",
         "title": "Switch Pro Controller",
-        "price": 420,
+        "price": 70,
         "type": "accessory",
-        "description": "tempDescription",
+        "description": "An ergonomic controller for the Nintendo Switch, enhancing the gaming experience with its precise controls.",
         "image": "data/images/switchProController.jpg"
     }
 ]
