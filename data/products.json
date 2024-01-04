@@ -126,5 +126,46 @@
         "type": "accessory",
         "description": "An ergonomic controller for the Nintendo Switch, enhancing the gaming experience with its precise controls.",
         "image": "data/images/switchProController.jpg"
+    },
+    {
+        "id": "MarioKartGame",
+        "title": "Mario Kart",
+        "price": 20,
+        "type": "Game",
+        "description": "Racing cart game in the mario universe.",
+        "image": "data/images/MarioKart.avif"
+    },
+    {
+        "id": "ZeldaGame",
+        "title": "Zelda",
+        "price": 20,
+        "type": "Game",
+        "description": "Embark on a heroic quest through the enchanting realm of Hyrule, battling foes, solving puzzles, and wielding legendary artifacts in this epic Zelda adventure.",
+        "image": "data/images/Zelda.webp"
+    },
+    {
+        "id": "SuperSmashBros",
+        "title": "Super Smash Bros",
+        "price": 20,
+        "type": "Game",
+        "description": "Super Smash Bros.: A fast-paced, crossover brawl featuring beloved gaming characters in dynamic multiplayer arenas.",
+        "image": "data/images/superSmash.jpg"
+    },
+    {
+        "id": "SuperMarioBrosWonder",
+        "title": "Super Mario Bros Wonder",
+        "price": 20,
+        "type": "Game",
+        "description": "oin Mario and Luigi on a lively adventure to rescue Princess Peach from Bowser's grasp in a vibrant and imaginative world.",
+        "image": "data/images/supperMarioWonder.avif"
+    },
+    {
+        "id": "StreetFighter6",
+        "title": "Street Fighter 6",
+        "price": 20,
+        "type": "Game",
+        "description": " Intense battles, new fighters, and stunning visuals redefine the iconic franchise.",
+        "image": "data/images/StreetFighter.webp"
     }
+
 ]
