@@ -1,0 +1,130 @@
+[
+    {
+        "id": "ps5",
+        "title": "Playstation 5",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/ps5.jpg"
+    },
+    {
+        "id": "commodore64",
+        "title": "Commodore 64",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/commodore64.webp"
+    },
+    {
+        "id": "xbox360",
+        "title": "Xbox 360",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/xbox360.jpeg"
+    },
+    {
+        "id": "segaGenesis",
+        "title": "Sega Genesis",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/segaGenesis.jpg"
+    },
+    {
+        "id": "psp",
+        "title": "Playstation Portable",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/psp.jpg"
+    },
+    {
+        "id": "psx",
+        "title": "Playstation X",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/psx.jpg"
+    },
+    {
+        "id": "atari2600",
+        "title": "Atari 2600",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/atari.png"
+    },
+    {
+        "id": "nes",
+        "title": "NES",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/nes.jpg"
+    },
+    {
+        "id": "n64",
+        "title": "Nintendo 64",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/nintendo64.jpg"
+    },
+    {
+        "id": "nds",
+        "title": "Nintendo DS",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/nintendods.jpg"
+    },
+    {
+        "id": "wii",
+        "title": "Wii",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/wii.jpg"
+    },
+    {
+        "id": "steamdeck",
+        "title": "Steam Deck",
+        "price": 499,
+        "type": "console",
+        "description": "tempDescription",
+        "image": "data/images/steamdeck.webp"
+    },
+    {
+        "id": "deltacoHeadset",
+        "title": "Deltaco Headset",
+        "price": 499,
+        "type": "accessory",
+        "description": "tempDescription",
+        "image": "data/images/deltacoHeadset.png"
+    },
+    {
+        "id": "logitechHeadset",
+        "title": "Logitech Headset",
+        "price": 499,
+        "type": "accessory",
+        "description": "tempDescription",
+        "image":"data/images/logitechHeadset.jpg"
+    },
+    {
+        "id": "onikuma",
+        "title": "Onikuma Headset",
+        "price": 500,
+        "type": "accessory",
+        "description": "cute",
+        "image": "data/images/onikumaHeadset.webp"
+    },
+    {
+        "id": "switchProController",
+        "title": "Switch Pro Controller",
+        "price": 420,
+        "type": "accessory",
+        "description": "tempDescription",
+        "image": "data/images/switchProController.jpg"
+    }
+]
