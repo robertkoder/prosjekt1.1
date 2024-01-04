@@ -18,8 +18,8 @@
 .product-item-large {
     width: 400px;
     box-sizing: border-box;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,4 +81,12 @@
 .clean-default {
     margin-block-start: 5px;
     margin-block-end: 0px;
+}
+
+.product-item-small:hover {
+    scale: 1.2;
+}
+
+.product-item-large:hover {
+    scale: 1.12;
 }
