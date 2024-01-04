@@ -131,7 +131,7 @@
         "id": "MarioKartGame",
         "title": "Mario Kart",
         "price": 20,
-        "type": "Game",
+        "type": "game",
         "description": "Racing cart game in the mario universe.",
         "image": "data/images/MarioKart.png"
     },
@@ -139,7 +139,7 @@
         "id": "ZeldaGame",
         "title": "Zelda Breath of the Wild",
         "price": 20,
-        "type": "Game",
+        "type": "game",
         "description": "Embark on a heroic quest through the enchanting realm of Hyrule, battling foes, solving puzzles, and wielding legendary artifacts in this epic Zelda adventure.",
         "image": "data/images/Zelda.png"
     },
@@ -147,7 +147,7 @@
         "id": "SuperSmashBros",
         "title": "Super Smash Bros",
         "price": 20,
-        "type": "Game",
+        "type": "game",
         "description": "Super Smash Bros.: A fast-paced, crossover brawl featuring beloved gaming characters in dynamic multiplayer arenas.",
         "image": "data/images/supersmashbros.png"
     },
@@ -155,17 +155,16 @@
         "id": "SuperMarioBrosWonder",
         "title": "Super Mario Bros Wonder",
         "price": 20,
-        "type": "Game",
-        "description": "oin Mario and Luigi on a lively adventure to rescue Princess Peach from Bowser's grasp in a vibrant and imaginative world.",
+        "type": "game",
+        "description": "Join Mario and Luigi on a lively adventure to rescue Princess Peach from Bowser's grasp in a vibrant and imaginative world.",
         "image": "data/images/supermarioWonnder.png"
     },
     {
         "id": "StreetFighter6",
         "title": "Street Fighter 6",
         "price": 20,
-        "type": "Game",
-        "description": " Intense battles, new fighters, and stunning visuals redefine the iconic franchise.",
+        "type": "game",
+        "description": "Intense battles, new fighters, and stunning visuals redefine the iconic franchise.",
         "image": "data/images/StreetFighter.webp"
     }
-
 ]

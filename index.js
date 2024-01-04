@@ -47,7 +47,7 @@ function populateProductList(products) {
                     <h3 class="product-title clean-default">${product.title}</h3>
                     <p class="product-description">${product.description}</p>
                 </div>
-                <p class="product-price">$${product.price}</p>
+                <p class="product-price clean-default">$${product.price}</p>
             </div>
         `;
         productList.appendChild(li);
@@ -66,10 +66,21 @@ function shuffleArray(array) {
 }
 
 function populateSmallProductList(products) {
+    // Sort products to show games first
+    products.sort((a, b) => {
+        if (a.type === "game" && b.type !== "game") {
+            return -1; // a comes first
+        }
+        if (a.type !== "game" && b.type === "game") {
+            return 1; // b comes first
+        }
+        return 0; // no change in order
+    });
+
     const productSmallList = document.getElementById("productListSmall");
     // Clear previous items
     productSmallList.innerHTML = "";
-    
+
     products.forEach(product => {
         const li = document.createElement("li");
         li.classList.add("product-item-small");
@@ -77,9 +88,9 @@ function populateSmallProductList(products) {
             <img src="${product.image}" alt="${product.title}" class="product-image-small">
             <div class="product-details">
                 <div class="product-title-description">
-                    <h3 class="product-title">${product.title}</h4>
+                    <h3 class="product-title clean-default">${product.title}</h3>
                 </div>
-                <p class="product-price">$${product.price}</p>
+                <p class="product-price clean-default">$${product.price}</p>
             </div>
         `;
         productSmallList.appendChild(li);
