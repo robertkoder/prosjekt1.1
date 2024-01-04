@@ -157,7 +157,7 @@
         "price": 20,
         "type": "game",
         "description": "Join Mario and Luigi on a lively adventure to rescue Princess Peach from Bowser's grasp in a vibrant and imaginative world.",
-        "image": "data/images/supermarioWonnder.png"
+        "image": "data/images/supermarioWonder.png"
     },
     {
         "id": "StreetFighter6",
