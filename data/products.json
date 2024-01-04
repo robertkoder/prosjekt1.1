@@ -128,13 +128,12 @@
         "image": "data/images/switchProController.jpg"
     },
     {
-        __________________________
         "id": "MarioKartGame",
         "title": "Mario Kart",
         "price": 20,
         "type": "Game",
         "description": "Racing cart game in the mario universe.",
-        "image": "data/images/switchProController.jpg"
+        "image": "data/images/MarioKart.avif"
     },
     {
         "id": "ZeldaGame",
@@ -142,7 +141,7 @@
         "price": 20,
         "type": "Game",
         "description": "Embark on a heroic quest through the enchanting realm of Hyrule, battling foes, solving puzzles, and wielding legendary artifacts in this epic Zelda adventure.",
-        "image": "data/images/switchProController.jpg"
+        "image": "data/images/Zelda.webp"
     },
     {
         "id": "SuperSmashBros",
@@ -150,7 +149,7 @@
         "price": 20,
         "type": "Game",
         "description": "Super Smash Bros.: A fast-paced, crossover brawl featuring beloved gaming characters in dynamic multiplayer arenas.",
-        "image": "data/images/switchProController.jpg"
+        "image": "data/images/superSmash.jpg"
     },
     {
         "id": "SuperMarioBrosWonder",
@@ -158,7 +157,7 @@
         "price": 20,
         "type": "Game",
         "description": "oin Mario and Luigi on a lively adventure to rescue Princess Peach from Bowser's grasp in a vibrant and imaginative world.",
-        "image": "data/images/switchProController.jpg"
+        "image": "data/images/supperMarioWonder.avif"
     },
     {
         "id": "StreetFighter6",
@@ -166,7 +165,7 @@
         "price": 20,
         "type": "Game",
         "description": " Intense battles, new fighters, and stunning visuals redefine the iconic franchise.",
-        "image": "data/images/switchProController.jpg"
+        "image": "data/images/StreetFighter.webp"
     }
 
 ]
