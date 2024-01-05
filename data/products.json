@@ -1,6 +1,6 @@
 [
     {
-        "id": "ps5",
+        "id":"ps5",
         "title": "Playstation 5",
         "price": 499,
         "type": "console",
@@ -8,7 +8,7 @@
         "image": "data/images/ps5.png"
     },
     {
-        "id": "commodore64",
+        "id":"commodore64",
         "title": "Commodore 64",
         "price": 80,
         "type": "console",
@@ -16,7 +16,7 @@
         "image": "data/images/comodore64.png"
     },
     {
-        "id": "xbox360",
+        "id":"xbox360",
         "title": "Xbox 360",
         "price": 150,
         "type": "console",
@@ -24,7 +24,7 @@
         "image": "data/images/xbox360.png"
     },
     {
-        "id": "segaGenesis",
+        "id":"segaGenesis",
         "title": "Sega Genesis",
         "price": 70,
         "type": "console",
@@ -32,7 +32,7 @@
         "image": "data/images/segaGenesis.png"
     },
     {
-        "id": "psp",
+        "id":"psp",
         "title": "Playstation Portable",
         "price": 120,
         "type": "console",
@@ -40,7 +40,7 @@
         "image": "data/images/psp.png"
     },
     {
-        "id": "psx",
+        "id":"psx",
         "title": "Playstation X",
         "price": 100,
         "type": "console",
@@ -48,7 +48,7 @@
         "image": "data/images/psx.png"
     },
     {
-        "id": "atari2600",
+        "id":"atari2600",
         "title": "Atari 2600",
         "price": 60,
         "type": "console",
@@ -56,7 +56,7 @@
         "image": "data/images/atari.png"
     },
     {
-        "id": "nes",
+        "id":"nes",
         "title": "NES",
         "price": 100,
         "type": "console",
@@ -64,7 +64,7 @@
         "image": "data/images/nes.png"
     },
     {
-        "id": "n64",
+        "id":"n64",
         "title": "Nintendo 64",
         "price": 120,
         "type": "console",
@@ -72,7 +72,7 @@
         "image": "data/images/nintendo_64.png"
     },
     {
-        "id": "nds",
+        "id":"nds",
         "title": "Nintendo DS",
         "price": 80,
         "type": "console",
@@ -80,7 +80,7 @@
         "image": "data/images/nintendods.png"
     },
     {
-        "id": "wii",
+        "id":"wii",
         "title": "Wii",
         "price": 100,
         "type": "console",
@@ -88,7 +88,7 @@
         "image": "data/images/Wii.png"
     },
     {
-        "id": "steamdeck",
+        "id":"steamdeck",
         "title": "Steam Deck",
         "price": 399,
         "type": "console",
@@ -96,7 +96,7 @@
         "image": "data/images/steamdeck.png"
     },
     {
-        "id": "deltacoHeadset",
+        "id":"deltacoHeadset",
         "title": "Deltaco Headset",
         "price": 40,
         "type": "accessory",
@@ -104,7 +104,7 @@
         "image": "data/images/deltacoHeadset.png"
     },
     {
-        "id": "logitechHeadset",
+        "id":"logitechHeadset",
         "title": "Logitech Headset",
         "price": 60,
         "type": "accessory",
@@ -112,7 +112,7 @@
         "image":"data/images/logitech.png"
     },
     {
-        "id": "onikuma",
+        "id":"onikuma",
         "title": "Onikuma Headset",
         "price": 50,
         "type": "accessory",
@@ -120,7 +120,7 @@
         "image": "data/images/onikumaHeadset.webp"
     },
     {
-        "id": "ps5Controller",
+        "id":"ps5Controller",
         "title": "PS5 Controller",
         "price": 50,
         "type": "accessory",
@@ -128,7 +128,7 @@
         "image": "data/images/joker_controller.png"
     },
     {
-        "id": "MarioKartGame",
+        "id":"MarioKartGame",
         "title": "Mario Kart",
         "price": 20,
         "type": "game",
@@ -136,7 +136,7 @@
         "image": "data/images/MarioKart.png"
     },
     {
-        "id": "ZeldaGame",
+        "id":"ZeldaGame",
         "title": "Zelda Breath of the Wild",
         "price": 20,
         "type": "game",
@@ -144,7 +144,7 @@
         "image": "data/images/Zelda.png"
     },
     {
-        "id": "SuperSmashBros",
+        "id":"SuperSmashBros",
         "title": "Super Smash Bros",
         "price": 20,
         "type": "game",
@@ -152,7 +152,7 @@
         "image": "data/images/supersmashbros.png"
     },
     {
-        "id": "SuperMarioBrosWonder",
+        "id":"SuperMarioBrosWonder",
         "title": "Super Mario Bros Wonder",
         "price": 20,
         "type": "game",
@@ -160,7 +160,7 @@
         "image": "data/images/supermarioWonder.png"
     },
     {
-        "id": "StreetFighter6",
+        "id":"StreetFighter6",
         "title": "Street Fighter 6",
         "price": 20,
         "type": "game",
