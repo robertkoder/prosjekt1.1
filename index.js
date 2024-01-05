@@ -14,16 +14,60 @@ function fetchProductData() {
 }
 
 function populateNavProductList(products) {
-    const productNavList = document.getElementById("navProductList");
+    const gameList = document.getElementById("navProductList").children[0].querySelector(".sub-menu");
+    const consoleList = document.getElementById("navProductList").children[1].querySelector(".sub-menu");
+    const accessoryList = document.getElementById("navProductList").children[2].querySelector(".sub-menu");
+
     products.forEach(product => {
         const li = document.createElement("li");
         const a = document.createElement("a");
         a.href = "#" + product.id;
         a.textContent = product.title;
+
+        // Prevent default anchor link behavior
+        a.addEventListener("click", function(event) {
+            event.preventDefault();
+            scrollToProduct(product.id);
+        });
+
         li.appendChild(a);
         li.classList.add("li_hover");
-        productNavList.appendChild(li);
+
+        switch (product.type) {
+            case "game":
+                gameList.appendChild(li);
+                break;
+            case "console":
+                consoleList.appendChild(li);
+                break;
+            case "accessory":
+                accessoryList.appendChild(li);
+                break;
+        }
     });
+}
+
+function scrollToProduct(productId) {
+    const element = document.getElementById(productId);
+    if (element) {
+        const elementRect = element.getBoundingClientRect();
+        const absoluteElementTop = elementRect.top + window.pageYOffset;
+        
+        const middle = absoluteElementTop - (window.innerHeight / 2) + 100;
+        
+        window.scrollTo({
+            top: middle,
+            behavior: "smooth"  // adds smooth scrolling
+        });
+
+        // add the "bumped" class to the element
+        element.classList.add("bumped");
+
+        // remove the class after the animation
+        setTimeout(() => {
+            element.classList.remove("bumped");
+        }, 4000);
+    }
 }
 
 function populateProductList(products) {
@@ -34,9 +78,7 @@ function populateProductList(products) {
     const selectedProducts = shuffledProducts.slice(0, 4);
     
     const productList = document.getElementById("productListLarge");
-    // Clear previous items
-    productList.innerHTML = "";
-    
+
     selectedProducts.forEach(product => {
         const li = document.createElement("li");
         li.classList.add("product-item-large");
@@ -78,14 +120,13 @@ function populateSmallProductList(products) {
     });
 
     const productSmallList = document.getElementById("productListSmall");
-    // Clear previous items
-    productSmallList.innerHTML = "";
 
     products.forEach(product => {
         const li = document.createElement("li");
         li.classList.add("product-item-small");
+        li.id = product.id;
         li.innerHTML = `
-            <img src="${product.image}" alt="${product.title}" class="product-image-small id="${product.id}">
+            <img src="${product.image}" alt="${product.title}" class="product-image-small">
             <div class="product-details">
                 <div class="product-title-description">
                     <h3 class="product-title clean-default">${product.title}</h3>
