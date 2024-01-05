@@ -96,7 +96,7 @@
 
 .product-item-large:hover .product-price,
 .product-item-small:hover .product-price {
-    display: none;
+    opacity: 0;
 }
 
 .product-item-large:hover::after {
