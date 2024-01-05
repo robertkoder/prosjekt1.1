@@ -21,7 +21,7 @@ function populateNavProductList(products) {
         a.href = "#";
         a.textContent = product.title;
         li.appendChild(a);
-        li.classList.add("list_hover");
+        li.classList.add("li_hover");
         productNavList.appendChild(li);
     });
 }
