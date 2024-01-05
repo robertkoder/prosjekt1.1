@@ -99,6 +99,13 @@ ul li:hover > ul {
     display: block;
 }
 
+ul ul.sub-menu {
+    left: 80%; /* Position to the right of the parent menu item */
+    top: 0;
+    width: 200px; /* Adjust width as needed */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
 /* Add some styling for the dropdown indicators */
 a b {
     margin-left: 0px;
