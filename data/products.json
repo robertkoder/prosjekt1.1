@@ -120,11 +120,11 @@
         "image": "data/images/onikumaHeadset.webp"
     },
     {
-        "id": "switchProController",
-        "title": "Switch Pro Controller",
-        "price": 70,
+        "id": "ps5Controller",
+        "title": "PS5 Controller",
+        "price": 50,
         "type": "accessory",
-        "description": "An ergonomic controller for the Nintendo Switch, enhancing the gaming experience with its precise controls.",
+        "description": "An ergonomic controller for Playstation 5, enhancing the gaming experience with its precise controls.",
         "image": "data/images/joker_controller.png"
     },
     {
