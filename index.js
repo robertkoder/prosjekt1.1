@@ -18,7 +18,7 @@ function populateNavProductList(products) {
     products.forEach(product => {
         const li = document.createElement("li");
         const a = document.createElement("a");
-        a.href = "#";
+        a.href = "#" + product.id;
         a.textContent = product.title;
         li.appendChild(a);
         li.classList.add("li_hover");
@@ -41,7 +41,7 @@ function populateProductList(products) {
         const li = document.createElement("li");
         li.classList.add("product-item-large");
         li.innerHTML = `
-            <img src="${product.image}" alt="${product.title}" class="product-image">
+            <img src="${product.image}" alt="${product.title}" class="product-image id="${product.id}">
             <div class="product-details">
                 <div class="product-title-description">
                     <h3 class="product-title clean-default">${product.title}</h3>
@@ -85,7 +85,7 @@ function populateSmallProductList(products) {
         const li = document.createElement("li");
         li.classList.add("product-item-small");
         li.innerHTML = `
-            <img src="${product.image}" alt="${product.title}" class="product-image-small">
+            <img src="${product.image}" alt="${product.title}" class="product-image-small id="${product.id}">
             <div class="product-details">
                 <div class="product-title-description">
                     <h3 class="product-title clean-default">${product.title}</h3>
