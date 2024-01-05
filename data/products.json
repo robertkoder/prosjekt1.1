@@ -125,7 +125,7 @@
         "price": 70,
         "type": "accessory",
         "description": "An ergonomic controller for the Nintendo Switch, enhancing the gaming experience with its precise controls.",
-        "image": "data/images/switchProController.jpg"
+        "image": "data/images/joker_controller.png"
     },
     {
         "id": "MarioKartGame",
