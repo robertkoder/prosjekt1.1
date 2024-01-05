@@ -69,7 +69,7 @@
         "price": 120,
         "type": "console",
         "description": "A revolutionary console known for its 3D graphics and iconic games like Mario and Zelda.",
-        "image": "data/images/nintendo64.png"
+        "image": "data/images/nintendo_64.png"
     },
     {
         "id": "nds",
