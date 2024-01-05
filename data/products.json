@@ -5,7 +5,7 @@
         "price": 499,
         "type": "console",
         "description": "The latest in Sony's gaming technology, offering advanced graphics and high-speed performance.",
-        "image": "data/images/ps5.jpg"
+        "image": "data/images/ps5.png"
     },
     {
         "id": "commodore64",
@@ -13,7 +13,7 @@
         "price": 80,
         "type": "console",
         "description": "A classic home computer from the 1980s, known for its vast game library and programming capabilities.",
-        "image": "data/images/commodore64.webp"
+        "image": "data/images/comodore64.png"
     },
     {
         "id": "xbox360",
@@ -21,7 +21,7 @@
         "price": 150,
         "type": "console",
         "description": "A popular gaming console from Microsoft, well-known for its extensive game catalog and online gaming community.",
-        "image": "data/images/xbox360.jpeg"
+        "image": "data/images/xbox360.png"
     },
     {
         "id": "segaGenesis",
@@ -29,7 +29,7 @@
         "price": 70,
         "type": "console",
         "description": "A landmark 16-bit console that brought arcade-quality gaming to the home.",
-        "image": "data/images/segaGenesis.jpg"
+        "image": "data/images/segaGenesis.png"
     },
     {
         "id": "psp",
@@ -37,7 +37,7 @@
         "price": 120,
         "type": "console",
         "description": "Sony's first venture into handheld gaming, combining powerful hardware with a sleek design.",
-        "image": "data/images/psp.jpg"
+        "image": "data/images/psp.png"
     },
     {
         "id": "psx",
@@ -45,7 +45,7 @@
         "price": 100,
         "type": "console",
         "description": "An iconic console that revolutionized 3D gaming and brought many classic franchises to life.",
-        "image": "data/images/psx.jpg"
+        "image": "data/images/psx.png"
     },
     {
         "id": "atari2600",
@@ -61,7 +61,7 @@
         "price": 100,
         "type": "console",
         "description": "Nintendo's groundbreaking system that redefined home gaming in the 1980s.",
-        "image": "data/images/nes.jpg"
+        "image": "data/images/nes.png"
     },
     {
         "id": "n64",
@@ -69,7 +69,7 @@
         "price": 120,
         "type": "console",
         "description": "A revolutionary console known for its 3D graphics and iconic games like Mario and Zelda.",
-        "image": "data/images/nintendo64.jpg"
+        "image": "data/images/nintendo64.png"
     },
     {
         "id": "nds",
@@ -77,7 +77,7 @@
         "price": 80,
         "type": "console",
         "description": "A dual-screen handheld gaming console, famous for its innovative design and touchscreen capabilities.",
-        "image": "data/images/nintendods.jpg"
+        "image": "data/images/nintendods.png"
     },
     {
         "id": "wii",
@@ -85,7 +85,7 @@
         "price": 100,
         "type": "console",
         "description": "Nintendo's innovative console that introduced motion controls to a wide audience.",
-        "image": "data/images/wii.jpg"
+        "image": "data/images/Wii.png"
     },
     {
         "id": "steamdeck",
@@ -93,7 +93,7 @@
         "price": 399,
         "type": "console",
         "description": "A powerful handheld gaming PC that brings your entire Steam library on the go.",
-        "image": "data/images/steamdeck.webp"
+        "image": "data/images/steamdeck.png"
     },
     {
         "id": "deltacoHeadset",
@@ -109,7 +109,7 @@
         "price": 60,
         "type": "accessory",
         "description": "A high-quality headset from Logitech, offering exceptional audio clarity and comfort.",
-        "image":"data/images/logitechHeadset.jpg"
+        "image":"data/images/logitech.png"
     },
     {
         "id": "onikuma",
