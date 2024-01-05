@@ -128,7 +128,7 @@
         "image": "data/images/joker_controller.png"
     },
     {
-        "id": "MarioKartGame",
+        "id": "marioKart",
         "title": "Mario Kart",
         "price": 20,
         "type": "game",
@@ -136,15 +136,15 @@
         "image": "data/images/MarioKart.png"
     },
     {
-        "id": "ZeldaGame",
-        "title": "Zelda Breath of the Wild",
+        "id": "zeldabotw",
+        "title": "Zelda: Breath of the Wild",
         "price": 20,
         "type": "game",
         "description": "Embark on a heroic quest through the enchanting realm of Hyrule, battling foes, solving puzzles, and wielding legendary artifacts in this epic Zelda adventure.",
         "image": "data/images/Zelda.png"
     },
     {
-        "id": "SuperSmashBros",
+        "id": "superSmashBros",
         "title": "Super Smash Bros",
         "price": 20,
         "type": "game",
@@ -152,7 +152,7 @@
         "image": "data/images/supersmashbros.png"
     },
     {
-        "id": "SuperMarioBrosWonder",
+        "id": "superMarioBrosWonder",
         "title": "Super Mario Bros Wonder",
         "price": 20,
         "type": "game",
@@ -160,7 +160,7 @@
         "image": "data/images/supermarioWonder.png"
     },
     {
-        "id": "StreetFighter6",
+        "id": "streetFighter6",
         "title": "Street Fighter 6",
         "price": 20,
         "type": "game",
