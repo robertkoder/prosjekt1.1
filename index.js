@@ -23,7 +23,7 @@ function populateNavProductList(products) {
         const a = document.createElement("a");
         a.href = "#" + product.id;
         a.textContent = product.title;
-
+        
         // Prevent default anchor link behavior
         a.addEventListener("click", function(event) {
             event.preventDefault();
@@ -32,7 +32,7 @@ function populateNavProductList(products) {
 
         li.appendChild(a);
         li.classList.add("li_hover");
-
+        
         switch (product.type) {
             case "game":
                 gameList.appendChild(li);
@@ -78,7 +78,7 @@ function populateProductList(products) {
     const selectedProducts = shuffledProducts.slice(0, 4);
     
     const productList = document.getElementById("productListLarge");
-
+    
     selectedProducts.forEach(product => {
         const li = document.createElement("li");
         li.classList.add("product-item-large");
